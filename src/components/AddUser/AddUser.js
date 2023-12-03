@@ -32,7 +32,7 @@ const AddUser = (props) => {
   return (
     <Card className={styles.input}>
       <form onSubmit={submitHandler}>
-        <label htmlFor="user-name">User Name - Test</label>
+        <label htmlFor="user-name">User Name</label>
         <input
           onChange={(event) =>
             userChangeHandler("user-name", event.target.value)
